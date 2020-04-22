@@ -1,7 +1,7 @@
 set(CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "9.2.0")
+set(CMAKE_CXX_COMPILER_VERSION "8.2.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -42,17 +42,8 @@ if(CMAKE_COMPILER_IS_MINGW)
   set(MINGW 1)
 endif()
 set(CMAKE_CXX_COMPILER_ID_RUN 1)
-set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;CPP)
 set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)
-
-foreach (lang C OBJC OBJCXX)
-  if (CMAKE_${lang}_COMPILER_ID_RUN)
-    foreach(extension IN LISTS CMAKE_${lang}_SOURCE_FILE_EXTENSIONS)
-      list(REMOVE_ITEM CMAKE_CXX_SOURCE_FILE_EXTENSIONS ${extension})
-    endforeach()
-  endif()
-endforeach()
-
+set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;mm;CPP)
 set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
@@ -82,7 +73,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++;C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32;C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/backward;C:/MinGW/lib/gcc/mingw32/9.2.0/include;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/9.2.0/include-fixed")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;mingwex;gcc_s;gcc;moldname;advapi32;shell32;user32;kernel32;mingw32;mingwex;gcc_s;gcc;moldname")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/MinGW/lib/gcc/mingw32/9.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++;C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/mingw32;C:/MinGW/lib/gcc/mingw32/8.2.0/include/c++/backward;C:/MinGW/lib/gcc/mingw32/8.2.0/include;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/8.2.0/include-fixed")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/MinGW/lib/gcc/mingw32/8.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

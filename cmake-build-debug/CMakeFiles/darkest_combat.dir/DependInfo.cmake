@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Eren/Desktop/CMP1002/Proje/darkest-combat/main.cpp" "C:/Users/Eren/Desktop/CMP1002/Proje/darkest-combat/cmake-build-debug/CMakeFiles/darkest_combat.dir/main.cpp.obj"
+  "C:/Users/fdoga/Desktop/darkest-combat/main.cpp" "C:/Users/fdoga/Desktop/darkest-combat/cmake-build-debug/CMakeFiles/darkest_combat.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
