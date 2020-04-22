@@ -1,6 +1,6 @@
-"D:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\fdoga\Desktop\darkest-combat
--- The C compiler identification is GNU 8.2.0
--- The CXX compiler identification is GNU 8.2.0
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Eren\Desktop\CMP1002\Proje\darkest-combat
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/fdoga/Desktop/darkest-combat/cmake-build-debug
+-- Build files have been written to: C:/Users/Eren/Desktop/CMP1002/Proje/darkest-combat/cmake-build-debug
