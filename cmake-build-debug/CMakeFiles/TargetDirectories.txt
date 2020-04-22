@@ -1,0 +1,3 @@
+C:/Users/fdoga/Desktop/darkest-combat/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fdoga/Desktop/darkest-combat/cmake-build-debug/CMakeFiles/darkest_combat.dir
+C:/Users/fdoga/Desktop/darkest-combat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
