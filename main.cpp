@@ -880,7 +880,7 @@ void setRoundOrder(std::shared_ptr<std::vector<Hero>> heroes, std::shared_ptr<st
     bool sort = true;
     std::vector<Unit> maxUnit(1);
 
-    std::sort(newOrder->begin(), newOrder->end());
+    //std::sort(newOrder->begin(), newOrder->end());
 
     std::cout << std::endl;
 
